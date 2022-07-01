@@ -16,10 +16,10 @@ class CinemaController extends Controller
 
         $map = array_map(function ($cinema) {
             return array(
-                $cinema["name"] => [$cinema["long"] , $cinema["lat"]],
+                $cinema["name"] => [$cinema["lat"] , $cinema["long"]],
             );
         } , $c);
-    
+
         return view('front.cinemas.index',compact('cinemas' , 'map'));
     }
     public function show($id){

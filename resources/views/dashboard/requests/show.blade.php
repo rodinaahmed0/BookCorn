@@ -16,12 +16,11 @@ Dashboard
         <p> Owner Phone : {{$request->phone}}</p>
         <p> Owner Email : {{$request->email}}</p>
         <p> Maps Link : {{$request->link}}</p>
-         
+
         <form action="{{route('requests.approve' , $request->id)}}"  style="display: inline-block;" method="post">
             @csrf
-
-            <input type="text" class="form-control" name="long" placeholder="Long"> 
             <input type="text" class="form-control" name="lat" placeholder="Lat">
+            <input type="text" class="form-control" name="long" placeholder="Long">
             <button type="submit" class="btn btn-success btn-sm">Aprove</button>
         </form>
 

@@ -41,8 +41,8 @@ class RequestController extends Controller
                    'location' => $request->cinema_location,
                    'owner_phone' => $request->phone,
                    'image' => $request->image,
-                   'long' => $r->long,
                    'lat' => $r->lat,
+                   'long' => $r->long,
                 ]
             );
             $request->update([
