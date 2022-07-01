@@ -58,6 +58,7 @@ body {
 .checkout__info--paragraph {
     display: flex;
     justify-content: space-around;
+    color: #222831;
 }
 
 /* Buttons and links */

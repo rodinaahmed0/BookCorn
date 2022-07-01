@@ -1,7 +1,12 @@
 /* =================Popup login================== */
 
 .overlay-container--img {
-  width: 10rem;
-  height: 10rem;
-  filter: invert();
+    width: 10rem;
+    height: 10rem;
+    filter: invert();
+}
+.attention {
+    color: #ea5b6a;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
 }

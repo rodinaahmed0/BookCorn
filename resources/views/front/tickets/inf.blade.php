@@ -1,4 +1,4 @@
-@extends('layouts.app')
+  @extends('layouts.app')
 
 @section('links')
 <link rel="stylesheet" href="{{asset('css/style.css')}}" />
@@ -70,17 +70,22 @@ Ticket
       </li>
     </ul>
   </div>
-  </section>
+</section>
 
-  <p>You can cancel only 3 hours before show after that you will be charged.</p>
+<h6 class="heading--6">You can cancel only 3 hours before show after that you will be charged.</h6>
+
 
   <form action="{{route('ticket.cancel' , $ticket->id)}}" method="post"  class="invoice">
     @csrf
-    <input type="submit" class="invoice__btn btn-2" value="Cancel Ticket">
+    <input type="submit" class="invoice__btn btn-2" id="invoice__btn" value="Cancel Ticket">
     </form>
+
+
 @endsection
 
 
 @section('scripts')
+<script src="{{asset('js/ticket.js')}}"></script>
+{{-- <script src="{{asset('js/qrCode.js')}}"></script> --}}
 <script src="{{asset('js/script.js')}}"></script>
 @endsection

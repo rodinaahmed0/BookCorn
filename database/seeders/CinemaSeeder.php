@@ -23,8 +23,8 @@ class CinemaSeeder extends Seeder
                 'owner_phone' =>"0100000000",
                 'user_id' => 2,
                 'image' => "cinemaVox.jpg",
-                'long' => "31.1656908",
-                'lat' => "29.930524",
+                'long' => "29.932362636343516",
+                'lat' => "31.16653938873925",
               ],
               [
                 'name' => "Amir",
@@ -32,8 +32,8 @@ class CinemaSeeder extends Seeder
                 'owner_phone' =>"0100000000",
                 'user_id' => 3,
                 'image' => "cinemaAmir.jpg",
-                'long' => "31.19707221913942",
-                'lat' => "29.904006966821456",
+                'lat' => "31.19707221913942",
+                'long' => "29.904006966821456",
               ],
               [
                 'name' => "San Stefano",
@@ -41,8 +41,8 @@ class CinemaSeeder extends Seeder
                 'owner_phone' =>"0100000000",
                 'user_id' => 4,
                 'image' => "cinemaSan.jpg",
-                'long' => "31.24543757134621",
-                'lat' => "29.967793116555715",
+                'lat' => "31.24543757134621",
+                'long' => "29.967793116555715",
               ],
               [
                 'name' => "Green Plaza",
@@ -50,8 +50,8 @@ class CinemaSeeder extends Seeder
                 'owner_phone' =>"0100000000",
                 'user_id' => 5,
                 'image' => "cinemaGreenPlaza.jpg",
-                'long' => "31.205071000388887",
-                'lat' => "29.965541497508777",
+                'long' => "29.965541497508777",
+                'lat' => "31.205071000388887",
               ],
         ]);
     }
